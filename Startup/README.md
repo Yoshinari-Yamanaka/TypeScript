@@ -27,6 +27,7 @@ info Color legend :
 
 # tsc
 1. tsc --init
+
 creates tsconfig.json
 this is like
 
@@ -47,6 +48,7 @@ this is like
 ```
 
 2. tsc -p src/to/tsconfig.json or tsc
+
 this command allows you to transpile TypeScript Source Code to specified JS version Source Code
 
 
