@@ -33,18 +33,13 @@ this is like
 ```json
 {
   "compilerOptions": {
-    "target": "ES2020",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
-    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 
-    // "outFile": "./",                       /* Concatenate and emit output to single file. */
-    "outDir": "./dist",                        /* Redirect output structure to the directory. */
-
-    /* Strict Type-Checking Options */
-    "strict": true,                           /* Enable all strict type-checking options. */
-    // "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not
-    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via 
-    /* Advanced Options */
-    "skipLibCheck": true,                     /* Skip type checking of declaration files. */
-    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+    "target": "ES2020",                         
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/*"],
   "exclude": ["node_modules/*"]
