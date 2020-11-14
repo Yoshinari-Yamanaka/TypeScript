@@ -1,8 +1,10 @@
 # yarn
 1. yarn init
+
 create a package.json
 
 2. add,upgrade,remove
+
     * yarn add packageName@xxx.xxx
     add package
     * yarn upgrade packageName@xxx.xxx 
@@ -11,6 +13,7 @@ create a package.json
     remove package
 
 3. yarn install or yarn
+
     this command allows you to install packegs based on package.json
     When you've done `yarn add packageName@xxx.xxx`, you don't need do this command,
     but you add some packages on packeg.json manually, which means that you do not run `yarn add`
@@ -18,6 +21,7 @@ create a package.json
    
 
 4. yarn outdated
+
 info Color legend : 
  "<red>"    : Major Update backward-incompatible updates 
  "<yellow>" : Minor Update backward-compatible features 
