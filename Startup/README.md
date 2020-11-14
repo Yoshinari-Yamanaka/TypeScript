@@ -23,8 +23,11 @@ create a package.json
 4. yarn outdated
 
 info Color legend : 
- "<red>"    : Major Update backward-incompatible updates 
+
+ "<red>"    : Major Update backward-incompatible updates
+   
  "<yellow>" : Minor Update backward-compatible features 
+   
  "<green>"  : Patch Update backward-compatible bug fixes
 
 **yarn upgrade --latest** will upgrade former version package
