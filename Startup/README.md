@@ -41,9 +41,9 @@ this is like
 ```json
 {
   "compilerOptions": {
-    "target": "ES2020",                         
+    "target": "ES2020",
     "module": "commonjs",
-    "outDir": "./dist",
+    "outDir": "./build",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
